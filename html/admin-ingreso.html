@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/admin-estilos.css" />
+  </head>
+
+  <body>
+    <header class="cabesa">
+      <a href="pacietDC.html" class="BtnPP">Abrir Portal Paciente</a>
+    </header>
+    <div class="BTNS">
+      <div class="formulario">
+        <form action="sutmit" id="codadmind">
+          <div class="logo1">
+            <img src="Logo_Hc.png" id="logoHC" width="300px" />
+          </div>
+          <label for="contraadmind"
+            >ingrese su contraseña de administrador:</label
+          >
+          <p id="mensajeError">Error</p>
+          <input
+            type="password"
+            required
+            name="contraadmind"
+            id="campo-input"
+          />
+
+          <button type="submit" id="enviar">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="adminverifts.js"></script>
+</html>

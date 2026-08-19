@@ -1,0 +1,147 @@
+.btns-acces {
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 3px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+}
+.btns-acces:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+.btns-acces:active {
+  position: relative;
+  top: 1px;
+}
+@media (min-whidth: 768px) {
+  nav {
+    flex-direction: row;
+  }
+  header {
+    flex-direction: row;
+  }
+  body {
+    flex-direction: row;
+  }
+  .btn-contain {
+    flex-direction: row;
+  }
+  .hero {
+    flex-direction: row;
+  }
+  .img-contain {
+    flex-direction: row;
+  }
+  .text-contain {
+    flex-direction: row;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+  font-family: arial;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #08c1fa;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #54caee;
+  padding: 10px;
+  gap: 5px;
+}
+.logo-contain {
+  background-color: white;
+}
+.btn-contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.hero {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tit-accesarea {
+  text-align: center;
+}
+.img-contain {
+  display: block;
+}
+.text-contain {
+  color: white;
+  font-family: arial;
+  position: absolute; /* Saca el texto del flujo normal */
+  top: 50%; /* Centra verticalmente */
+  left: 50%; /* Centra horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste exacto al centro */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente opcional */
+  padding: 10px 20px;
+}
+.bien-venida {
+  text-align: center;
+}
+#section-accesos {
+  gap: 20px;
+  font-family: arial;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  margin-top: 10px;
+  background-color: #3874a1;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.redes-sociales {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 25px;
+}
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+}
+.redes-sociales img {
+  display: block;
+  width: auto;
+  height: 40px;
+}
+.logo-yt {
+  width: 100px;
+  height: auto;
+  margin-top: 0;
+  margin-left: 0;
+}
+.logo-yt {
+  transform: translateY(-5px);
+}
+.logo-yt {
+  transform: translateY(10px);
+}
+.contacto {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: inherit;
+}
